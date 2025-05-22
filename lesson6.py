@@ -27,7 +27,6 @@ def has_symbols(password):
 
 
 score = 0
-
 conditions = [
     is_very_long(password),
     has_digit(password),
