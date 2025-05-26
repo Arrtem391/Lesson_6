@@ -38,7 +38,11 @@ def password_score(password):
     return score
 
 
-if __name__ == "__main__":
+def main():
     password = input("Введите пароль: ")
     score = password_score(password)
     print('Рейтинг пароля: ', score)
+
+
+if __name__ == "__main__":
+    main()
